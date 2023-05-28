@@ -25,9 +25,11 @@ string MatchingIdAndName(int id_for_name)
     cout << "Invalid employee id. Perhaps it doesn't exist.";
     return "";
 }
-
-bool SavingResultsToAFile()
-{
+//commit 2
+//com2
+//function to save the results to a file
+bool SavingResultsToAFile()//commit 2
+{//commiiiiit2
     ofstream fout;
     fout.open("output.txt", std::ios::app);
     for (int i = headers.size() - 2; i >= 0; i--)
