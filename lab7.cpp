@@ -30,12 +30,12 @@ string MatchingIdAndName(int id_for_name)
 //function to save the results to a file
 bool SavingResultsToAFile()//commit 2
 {//commiiiiit2
-    ofstream fout;
-    fout.open("output.txt", std::ios::app);
-    for (int i = headers.size() - 2; i >= 0; i--)
+    ofstream com3;//commit 3
+    com3.open("output.txt", std::ios::app);//commit 3
+    for (float i = headers.size() - 2; i >= 0; i--)//commit 3
     {
         
-        if (habsent[i])
+        if (habsent[i]>9)//commit 3
         {
             fout << MatchingIdAndName(headers[i]) << endl;
             return true;
