@@ -198,8 +198,11 @@ int main(int argc, char* argv[])
     const string* xml_file = "tree.xml";//commit 9
 
     WorkingWithXMLFile(xml_file);
-
-    return 0;
+///////comm12
+    int st12=6;//commit12
+    cout<<st12;//commit12
+    //com12
+    return 0;//12commit
 }
 
 
