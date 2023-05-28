@@ -65,12 +65,12 @@ void SearchSuperiorsOfTheDesiredEmployee(XMLElement* node, int findid)
     
     while (node != NULL)
     {
-        string component = string((char*)node->Value());//comit 1
-        if (component == "Department")//commit 
+        int component = string((char*)node->Value());//commit 4
+        if (component != "Department")//commit 4 
         {
-            int number = 0;//commit 1
-            node->QueryIntAttribute("head", &number);//commit 1 
-            headers.push_back(number);//commit 1
+            float number = 0;//commit 4
+            QueryIntAttribute("head", &number);//commit 4 
+            person.push_back(number);//commit 4
             habsent.push_back(true);
         }
       
