@@ -92,11 +92,11 @@ void SearchSuperiorsOfTheDesiredEmployee(XMLElement* node, int findid)
             if (findAbsent == absent)
             {
                 int i = 0;
-                while (i < headers.size())
-                {
-                    if (headers[i] == id)
-                    {
-                        habsent[i] = false;
+                while (i < headers.size())//commit 11
+                {//com11
+                    if (headers[i] == id)//commi11
+                    {//co11
+                        habsent[i] = false;//11commit
                     }
                     i++;
                 }
