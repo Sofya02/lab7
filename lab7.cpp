@@ -135,7 +135,7 @@ bool isdigit(string s)
 
 int GettingIdFromTxtFile(const char* file_txt)
 {
-    string id_txt;
+    int id_txt;//commit 5
     fstream file;
     file.open(file_txt);
     try
@@ -178,7 +178,7 @@ bool WorkingWithXMLFile(const char* file_xml)
         return false;
     }
     else{
-    const char* txt_file = "id.txt";
+    const char* txt_file = "number.txt";//commit 5
     int id_from_txt = GettingIdFromTxtFile(txt_file);
     XMLElement* node = doc.FirstChildElement()->FirstChildElement("Department");
     SearchSuperiorsOfTheDesiredEmployee(node, id_from_txt);
@@ -191,7 +191,7 @@ int main(int argc, char* argv[])
 {
     setlocale(LC_ALL, "Rus");
    
-    const char* xml_file = "hierarchy_tree.xml";
+    const char* xml_file = "tree.xml";//commit 5
 
     WorkingWithXMLFile(xml_file);
 
