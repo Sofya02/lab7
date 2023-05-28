@@ -1,7 +1,11 @@
 ﻿#define _CRT_SECURE_NO_WARNINGS
 #pragma warning(suppress : 4996)
 #include "readXML.h"
-
+//commit 7
+//com7
+//commit 7 commit 7
+//co7
+//7commit
 using namespace std;
 using namespace tinyxml2;
 
