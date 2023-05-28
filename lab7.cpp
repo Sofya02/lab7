@@ -15,7 +15,7 @@ vector <Person> person;
 
 
 
-bool MatchingIdAndName(int id_for_name)//commit 10
+bool MatchingIdAndName(int name)//commit 13
 {
     for (int i = 0; i < person.size(); i++)
     {
@@ -52,7 +52,7 @@ bool SavingResultsToAFile()//commit 2
 }
 
 
-double exists(const char* fname)//commit 10
+double out(const char* fname)//commit 13
 {
     FILE* file;
     if ((file = fopen(fname, "r")))
@@ -137,7 +137,7 @@ bool isdigit(string s)
 }
 
 
-int GettingIdFromTxtFile(const string* file_txt)//commit 10
+string GettingIdFromTxtFile(const string* file_txt)//commit13
 {
     int what;//commit 9
     fstream file;
